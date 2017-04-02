@@ -1,6 +1,3 @@
-//Melissa Tolentino
-//CPSC 121-01
-//HW: Week 6
 //Discount Calculator: determines the original price and the final discounted price- after tax and all sales have been applied.
 
 #include <iostream>
@@ -20,11 +17,11 @@ DiscountCalc displayMenu() //Display the questions and get the user's input
 	cout <<"What percentage of a discount? ";
 	cin >> myCalc.discountPerc;
  
-    cout <<"Any additional percentage off? ";
-    cin >> myCalc.additionalPerc;
+        cout <<"Any additional percentage off? ";
+   	cin >> myCalc.additionalPerc;
     	
-    cout <<"What's the tax? ";
-    cin >> myCalc.tax;
+    	cout <<"What's the tax? ";
+    	cin >> myCalc.tax;
 	
     return myCalc; //store answers into myCalc
 }
